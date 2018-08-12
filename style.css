@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{  
+ font-family: 'Roboto Condensed', sans-serif;  
+ overflow-x: hidden;
+ }
+
+ .navbar-nav li {
+display:inline-block;
+font-size:20px;
+ }
+ .navbar-nav button {
+padding:6px;
+background-color:#fff;
+color:#f72210;
+border:none;
+ }
+ /** ######################################################## HEADER ######################################################## **/
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.col1{
+	position: relative;
+    height: 1820px;	
+}
+@media screen and (min-width: 992px)
+.colwrap .col1 {
+    width: 41%;
+}
+
+.col2{
+position: relative;
+ height: 1820px;		
+}
+
+@media screen and (min-width: 992px)
+.col2 {
+    width: 59%;
+}
+.col3{
+position: relative;
+ height: 1820px;	
+
+}
+@media screen and (min-width: 992px)
+.col3 {
+    width: 29%;
+}
+ .col1 .col2 .col3 {
+    float: left;  
+    padding-left: 15px;
+    padding-right: 15px;	
+}
+.heading{
+color: rgba(3,3,3,.4);
+text-transform: uppercase;
+padding-bottom: 11px;
+font-size:15px;
+font-weight:bold;
+	
+}
+.topics a{
+color:black;
+font-size:17px;
+line-height: 24px;	
+font-weight: bold;	
+}
+.topics a:hover{
+color:#f72210;
+text-decoration:none;
+font-weight: bold;
+}
+.topic a{
+color:black;
+font-size: 24px;
+line-height: 24px;	
+font-weight: bold;	
+}
+.topic a:hover{
+color:black;
+text-decoration: underline #f72210;
+font-weight: bold;
+}
+.content p{
+font-size:12px;	
+}
+.brd{
+border:0.5px solid grey;
+margin:10px;
+width:100%;
+}
+.pics{
+display:flex;	
+}
+.contents{
+margin-left:5px;
+}
+.contents a{
+font-size:18px;	
+}
+.author a{
+color:#555;	
+
+}
+.author a:hover{
+color:#f72210;
+text-decoration:none;	
+}
+#newsletter{
+max-width: 300px;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+
+.brds{
+border-top:0.5px solid grey;
+margin:10px;
+width:100%;
+}
+.cat{
+background-color:#f72210;
+color:#fff;
+font: bold 16px/16px "Roboto Condensed",sans-serif;	
+padding:7px;
+display:inline-block;
+width:36.5%;
+}
+.cat a{
+text-decoration:none;
+background-color:#fff;
+color:#f72210;	
+margin-left:5px;
+}
+.social{
+float:right;	
+}
+.social i{
+margin-top:5px;
+font-size:25px;	
+}
+.nav a {
+color:#555;
+padding:10px;font-size:15px;	
+}
